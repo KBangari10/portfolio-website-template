@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        header {
+            background-color: #54aa03;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgb(211, 121, 4);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2,
+        p {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links button {
+            background-color: #222;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #54aa03;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div><strong>Contact Me</strong></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="Skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Let's Connect</h2>
+        <p>Feel free to reach out for collaborations or inquiries.</p>
+
+        <form>
+            <input type="text" placeholder="Enter your full name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="tel" placeholder="Enter your phone number (optional)">
+            <textarea rows="4" placeholder="Type your message here..." required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <button>📸 Instagram</button>
+            <button>📘 Facebook</button>
+            <button>▶️ YouTube</button>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 Krishna Prasen Bangari
+    </footer>
+
+</body>
+
+</html>
